@@ -7,7 +7,7 @@ public class Ejercicio1_BaseDatos {
 
     private static Ventana1 v;
     private static Conexion CBD;
-    
+            
     
     public static void main(String[] args) throws Exception {
         añadir();
