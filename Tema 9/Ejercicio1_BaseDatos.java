@@ -13,11 +13,14 @@ public class Ejercicio1_BaseDatos {
         añadir();
         CBD = new Conexion();
         CBD.conectar();
-        
+        datoscorrectos();
     }
     
     public static void añadir(){
         v = new Ventana1();
         v.setVisible(true);
+    }
+    public static void datoscorrectos(){
+        
     }
 }
